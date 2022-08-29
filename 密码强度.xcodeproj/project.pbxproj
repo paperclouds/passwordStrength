@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F5907B28BCB14300345974 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5907A28BCB14300345974 /* AppDelegate.m */; };
+		D0F5907E28BCB14300345974 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5907D28BCB14300345974 /* SceneDelegate.m */; };
+		D0F5908128BCB14300345974 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5908028BCB14300345974 /* ViewController.m */; };
+		D0F5908428BCB14300345974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F5908228BCB14300345974 /* Main.storyboard */; };
+		D0F5908628BCB14700345974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F5908528BCB14700345974 /* Assets.xcassets */; };
+		D0F5908928BCB14700345974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F5908728BCB14700345974 /* LaunchScreen.storyboard */; };
+		D0F5908C28BCB14700345974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5908B28BCB14700345974 /* main.m */; };
+		D0F5909628BCB14700345974 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5909528BCB14700345974 /* ____Tests.m */; };
+		D0F590A028BCB14700345974 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5909F28BCB14700345974 /* ____UITests.m */; };
+		D0F590A228BCB14700345974 /* ____UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F590A128BCB14700345974 /* ____UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0F5909228BCB14700345974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F5906E28BCB14300345974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F5907528BCB14300345974;
+			remoteInfo = "密码强度";
+		};
+		D0F5909C28BCB14700345974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F5906E28BCB14300345974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F5907528BCB14300345974;
+			remoteInfo = "密码强度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0F5907628BCB14300345974 /* 密码强度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "密码强度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F5907928BCB14300345974 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0F5907A28BCB14300345974 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0F5907C28BCB14300345974 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D0F5907D28BCB14300345974 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D0F5907F28BCB14300345974 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0F5908028BCB14300345974 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0F5908328BCB14300345974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0F5908528BCB14700345974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0F5908828BCB14700345974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0F5908A28BCB14700345974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F5908B28BCB14700345974 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0F5909128BCB14700345974 /* 密码强度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "密码强度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F5909528BCB14700345974 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		D0F5909B28BCB14700345974 /* 密码强度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "密码强度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F5909F28BCB14700345974 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		D0F590A128BCB14700345974 /* ____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F5907328BCB14300345974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F5908E28BCB14700345974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F5909828BCB14700345974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F5906D28BCB14300345974 = {
+			isa = PBXGroup;
+			children = (
+				D0F5907828BCB14300345974 /* 密码强度 */,
+				D0F5909428BCB14700345974 /* 密码强度Tests */,
+				D0F5909E28BCB14700345974 /* 密码强度UITests */,
+				D0F5907728BCB14300345974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F5907728BCB14300345974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5907628BCB14300345974 /* 密码强度.app */,
+				D0F5909128BCB14700345974 /* 密码强度Tests.xctest */,
+				D0F5909B28BCB14700345974 /* 密码强度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F5907828BCB14300345974 /* 密码强度 */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5907928BCB14300345974 /* AppDelegate.h */,
+				D0F5907A28BCB14300345974 /* AppDelegate.m */,
+				D0F5907C28BCB14300345974 /* SceneDelegate.h */,
+				D0F5907D28BCB14300345974 /* SceneDelegate.m */,
+				D0F5907F28BCB14300345974 /* ViewController.h */,
+				D0F5908028BCB14300345974 /* ViewController.m */,
+				D0F5908228BCB14300345974 /* Main.storyboard */,
+				D0F5908528BCB14700345974 /* Assets.xcassets */,
+				D0F5908728BCB14700345974 /* LaunchScreen.storyboard */,
+				D0F5908A28BCB14700345974 /* Info.plist */,
+				D0F5908B28BCB14700345974 /* main.m */,
+			);
+			path = "密码强度";
+			sourceTree = "<group>";
+		};
+		D0F5909428BCB14700345974 /* 密码强度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5909528BCB14700345974 /* ____Tests.m */,
+			);
+			path = "密码强度Tests";
+			sourceTree = "<group>";
+		};
+		D0F5909E28BCB14700345974 /* 密码强度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5909F28BCB14700345974 /* ____UITests.m */,
+				D0F590A128BCB14700345974 /* ____UITestsLaunchTests.m */,
+			);
+			path = "密码强度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F5907528BCB14300345974 /* 密码强度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F590A528BCB14700345974 /* Build configuration list for PBXNativeTarget "密码强度" */;
+			buildPhases = (
+				D0F5907228BCB14300345974 /* Sources */,
+				D0F5907328BCB14300345974 /* Frameworks */,
+				D0F5907428BCB14300345974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "密码强度";
+			productName = "密码强度";
+			productReference = D0F5907628BCB14300345974 /* 密码强度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0F5909028BCB14700345974 /* 密码强度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F590A828BCB14700345974 /* Build configuration list for PBXNativeTarget "密码强度Tests" */;
+			buildPhases = (
+				D0F5908D28BCB14700345974 /* Sources */,
+				D0F5908E28BCB14700345974 /* Frameworks */,
+				D0F5908F28BCB14700345974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F5909328BCB14700345974 /* PBXTargetDependency */,
+			);
+			name = "密码强度Tests";
+			productName = "密码强度Tests";
+			productReference = D0F5909128BCB14700345974 /* 密码强度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0F5909A28BCB14700345974 /* 密码强度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F590AB28BCB14700345974 /* Build configuration list for PBXNativeTarget "密码强度UITests" */;
+			buildPhases = (
+				D0F5909728BCB14700345974 /* Sources */,
+				D0F5909828BCB14700345974 /* Frameworks */,
+				D0F5909928BCB14700345974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F5909D28BCB14700345974 /* PBXTargetDependency */,
+			);
+			name = "密码强度UITests";
+			productName = "密码强度UITests";
+			productReference = D0F5909B28BCB14700345974 /* 密码强度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F5906E28BCB14300345974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D0F5907528BCB14300345974 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D0F5909028BCB14700345974 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D0F5907528BCB14300345974;
+					};
+					D0F5909A28BCB14700345974 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D0F5907528BCB14300345974;
+					};
+				};
+			};
+			buildConfigurationList = D0F5907128BCB14300345974 /* Build configuration list for PBXProject "密码强度" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0F5906D28BCB14300345974;
+			productRefGroup = D0F5907728BCB14300345974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F5907528BCB14300345974 /* 密码强度 */,
+				D0F5909028BCB14700345974 /* 密码强度Tests */,
+				D0F5909A28BCB14700345974 /* 密码强度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F5907428BCB14300345974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F5908928BCB14700345974 /* LaunchScreen.storyboard in Resources */,
+				D0F5908628BCB14700345974 /* Assets.xcassets in Resources */,
+				D0F5908428BCB14300345974 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F5908F28BCB14700345974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F5909928BCB14700345974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F5907228BCB14300345974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F5908128BCB14300345974 /* ViewController.m in Sources */,
+				D0F5907B28BCB14300345974 /* AppDelegate.m in Sources */,
+				D0F5908C28BCB14700345974 /* main.m in Sources */,
+				D0F5907E28BCB14300345974 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F5908D28BCB14700345974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F5909628BCB14700345974 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F5909728BCB14700345974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F590A228BCB14700345974 /* ____UITestsLaunchTests.m in Sources */,
+				D0F590A028BCB14700345974 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F5909328BCB14700345974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F5907528BCB14300345974 /* 密码强度 */;
+			targetProxy = D0F5909228BCB14700345974 /* PBXContainerItemProxy */;
+		};
+		D0F5909D28BCB14700345974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F5907528BCB14300345974 /* 密码强度 */;
+			targetProxy = D0F5909C28BCB14700345974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0F5908228BCB14300345974 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F5908328BCB14300345974 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0F5908728BCB14700345974 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F5908828BCB14700345974 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F590A328BCB14700345974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0F590A428BCB14700345974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0F590A628BCB14700345974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38J3QYA8M7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "密码强度/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paperclouds.cc.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0F590A728BCB14700345974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38J3QYA8M7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "密码强度/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paperclouds.cc.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0F590A928BCB14700345974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38J3QYA8M7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paperclouds.cc.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/密码强度.app/密码强度";
+			};
+			name = Debug;
+		};
+		D0F590AA28BCB14700345974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38J3QYA8M7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paperclouds.cc.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/密码强度.app/密码强度";
+			};
+			name = Release;
+		};
+		D0F590AC28BCB14700345974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38J3QYA8M7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paperclouds.cc.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "密码强度";
+			};
+			name = Debug;
+		};
+		D0F590AD28BCB14700345974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38J3QYA8M7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paperclouds.cc.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "密码强度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F5907128BCB14300345974 /* Build configuration list for PBXProject "密码强度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F590A328BCB14700345974 /* Debug */,
+				D0F590A428BCB14700345974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F590A528BCB14700345974 /* Build configuration list for PBXNativeTarget "密码强度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F590A628BCB14700345974 /* Debug */,
+				D0F590A728BCB14700345974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F590A828BCB14700345974 /* Build configuration list for PBXNativeTarget "密码强度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F590A928BCB14700345974 /* Debug */,
+				D0F590AA28BCB14700345974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F590AB28BCB14700345974 /* Build configuration list for PBXNativeTarget "密码强度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F590AC28BCB14700345974 /* Debug */,
+				D0F590AD28BCB14700345974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0F5906E28BCB14300345974 /* Project object */;
+}
