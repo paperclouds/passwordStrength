@@ -17,6 +17,7 @@
 		D0F5909628BCB14700345974 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5909528BCB14700345974 /* ____Tests.m */; };
 		D0F590A028BCB14700345974 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5909F28BCB14700345974 /* ____UITests.m */; };
 		D0F590A228BCB14700345974 /* ____UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F590A128BCB14700345974 /* ____UITestsLaunchTests.m */; };
+		D0F590B028BCB5CB00345974 /* NSString+HJCore.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F590AF28BCB5CB00345974 /* NSString+HJCore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D0F5909B28BCB14700345974 /* 密码强度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "密码强度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F5909F28BCB14700345974 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		D0F590A128BCB14700345974 /* ____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		D0F590AE28BCB5CA00345974 /* NSString+HJCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HJCore.h"; sourceTree = "<group>"; };
+		D0F590AF28BCB5CB00345974 /* NSString+HJCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HJCore.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		D0F5907828BCB14300345974 /* 密码强度 */ = {
 			isa = PBXGroup;
 			children = (
+				D0F590AE28BCB5CA00345974 /* NSString+HJCore.h */,
+				D0F590AF28BCB5CB00345974 /* NSString+HJCore.m */,
 				D0F5907928BCB14300345974 /* AppDelegate.h */,
 				D0F5907A28BCB14300345974 /* AppDelegate.m */,
 				D0F5907C28BCB14300345974 /* SceneDelegate.h */,
@@ -270,6 +275,7 @@
 				D0F5907B28BCB14300345974 /* AppDelegate.m in Sources */,
 				D0F5908C28BCB14700345974 /* main.m in Sources */,
 				D0F5907E28BCB14300345974 /* SceneDelegate.m in Sources */,
+				D0F590B028BCB5CB00345974 /* NSString+HJCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +456,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +484,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
